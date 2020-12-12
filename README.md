@@ -1,7 +1,5 @@
-# @koa/webpack-dev-middleware
+# webpack-dev-middleware-for-koa2
 webpack dev middleware for koa 2.x.
-
-## 自己用的，别人的我管不了，我也不一定维护
 
 ## Usage
 
