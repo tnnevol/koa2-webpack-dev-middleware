@@ -1,11 +1,11 @@
-# webpack-dev-middleware-for-koa2
+# webpack-dev-middleware-for-koa
 webpack dev middleware for koa 2.x.
 
 ## Usage
 
 ```javascript
 const app = require('koa')();
-const webpackMiddleware = require("webpack-dev-middleware-by-koa2");
+const webpackMiddleware = require("webpack-dev-middleware-for-koa2");
 app.use(webpackMiddleware(...));
 ```
 
@@ -24,30 +24,7 @@ app.use(webpackMiddleware(webpack({
     }
 }), {
     // all options optional
-
-    noInfo: false,
-    // display no info to console (only warnings and errors)
-
-    quiet: false,
-    // display nothing to the console
-
-    lazy: true,
-    // switch into lazy mode
-    // that means no watching, but recompilation on every request
-
-    watchDelay: 300,
-    // delay after change (only lazy: false)
-
-    publicPath: "/assets/",
-    // public path to bind the middleware to
-    // use the same as in webpack
-
-    headers: { "X-Custom-Header": "yes" },
-    // custom headers
-
-    stats: {
-        colors: true
-    }
-    // options for formating the statistics
+      publicPath: webpackDevConfig.output.publicPath, // 增加路由访问前缀
+      logLevel: "error",
 }));
 ```
