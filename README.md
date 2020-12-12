@@ -1,4 +1,4 @@
-# @koa/webpack-hot-middleware
+# @koa/webpack-dev-middleware
 webpack dev middleware for koa 2.x.
 
 ## 自己用的，别人的我管不了，我也不一定维护
@@ -7,7 +7,7 @@ webpack dev middleware for koa 2.x.
 
 ```javascript
 const app = require('koa')();
-const webpackMiddleware = require("webpack-hot-middleware-by-koa2");
+const webpackMiddleware = require("webpack-dev-middleware-by-koa2");
 app.use(webpackMiddleware(...));
 ```
 
