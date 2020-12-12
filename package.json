@@ -1,0 +1,37 @@
+{
+  "name": "webpack-dev-middleware-by-koa2",
+  "version": "1.0.0",
+  "description": "用于koa2的webpack-dev-middleware的中间件",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tnnevol",
+    "newblue",
+    "koa2",
+    "webpack",
+    "middleware",
+    "koa2-webpack-dev-middleware",
+    "webpack-dev-middleware",
+    "webpack-dev-middleware-by-koa2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnnevol/koa2-webpack-hot-middleware.git"
+  },
+  "dependencies": {
+    "webpack-dev-middleware": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "author": "greecenew@foxmail.com",
+  "license": "MIT"
+}
