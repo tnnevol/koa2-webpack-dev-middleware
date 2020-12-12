@@ -1,5 +1,5 @@
 {
-  "name": "webpack-dev-middleware-for-koa2",
+  "name": "webpack-dev-middleware-for-koa",
   "version": "1.1.0",
   "description": "用于koa2的webpack-dev-middleware的中间件",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
     "middleware",
     "koa2-webpack-dev-middleware",
     "webpack-dev-middleware",
-    "webpack-dev-middleware-by-koa2"
+    "webpack-dev-middleware-for-koa2"
   ],
   "repository": {
     "type": "git",
